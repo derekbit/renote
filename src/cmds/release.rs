@@ -322,7 +322,8 @@ impl ReleaseArgs {
             }
         }
 
-        note += post_note.as_str();
+        //note += post_note.as_str();
+        
 
         note += "\n## Contributors\n";
         contributors.sort();
